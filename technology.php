@@ -96,10 +96,10 @@
           <span >Diverse digital solutions for businesses: software, IT, marketing, and more.</span>
         </div>
         <div class="dropdownlist">
-          <a style="text-decoration: none" href="edi.php">
+          <a style="text-decoration: none" href="technology.php">
             <div class="yellowColorFontThird">Technology</div>
           </a>
-          <a style="text-decoration: none" href="edp.php">
+          <a style="text-decoration: none" href="partnership.php">
             <div class="yellowColorFontThird">Partnership</div>
           </a>
         </div>
@@ -381,7 +381,7 @@
 
 
 
-  <main>
+  <main class="mainTechnology">
     <article>
 
       <!-- 
