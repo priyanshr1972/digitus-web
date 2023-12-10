@@ -1,0 +1,167 @@
+body {
+    font-family: 'system-ui';
+    text-align: center;
+}
+
+.container {
+    max-width: 1280px;
+    margin: auto;
+    padding: 2rem;
+}
+
+#team-member-1 {
+    background-color: rgb(254 226 226);
+}
+
+#team-member-2 {
+    background-color: rgb(219 234 254);
+}
+
+#team-member-3 {
+    background-color: rgb(254 249 195);
+}
+
+#team-member-4 {
+    background-color: rgb(220, 252, 231);
+}
+
+.myh2 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin-top: 4rem;
+    margin-bottom: 0.25rem;
+    line-height: 1.5;
+    opacity: 0.75;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 4rem;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-container {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    border-radius: 1.5rem;
+
+}
+
+.rounded-image {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1.5rem;
+}
+
+.info-container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    overflow: hidden;
+    border-radius: 1.5rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    opacity: 0.75;
+}
+
+.responsive-iframe-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 45%;
+    /* 9 / 16 * 100% */
+    max-width: 100%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    box-shadow: 0 0 20px rgba(255, 165, 0, 0.5);
+}
+
+.responsive-iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-width: 768px) {
+    .flex-row {
+        flex-direction: row-reverse;
+
+    }
+
+    #leftside {
+        margin-left: 1rem;
+    }
+
+    #rightside {
+        margin-right: 1rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .flex-container {
+        align-items: center;
+    }
+}
+
+@media (min-width: 1024px) {
+    .image-container {
+        aspect-ratio: 1 / 1;
+        width: 25%;
+    }
+
+    #leftside {
+        margin-left: 1rem;
+    }
+
+    #rightside {
+        margin-right: 1rem;
+    }
+
+    .info-container {
+        width: 75%;
+        padding: 2rem;
+    }
+
+    .responsive-iframe-container {
+        margin-left: 22%;
+    }
+}
+
+@media (max-width: 767px) {
+    .flex-container {
+        align-items: center;
+    }
+
+    .info-container {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+    }
+
+    .image-container {
+        width: 100%;
+    }
+
+    #leftside {
+        margin-bottom: 1rem;
+    }
+
+    #rightside {
+        margin-top: 1rem;
+    }
+}
