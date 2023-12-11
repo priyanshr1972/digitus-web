@@ -1,31 +1,18 @@
 <?php include "./dashboard/z_db.php"; ?>
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Digitus-technologies</title>
-
-  <!-- 
-    - favicon
-  -->
-  <link rel="shortcut icon" href=" " type="image/svg+xml">
-
-  <!-- 
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./assets/css/technology.css">
-
-  <!-- 
-    - google font link
-  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <title>Document</title>
+  <link rel="stylesheet" href="./assets/css/solution.css">
   <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Source+Sans+Pro:wght@600;700&display=swap"/>
-    <link rel="stylesheet" href="./assets/css/secondsection.css">
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link rel="stylesheet" href="./assets/css/secondsection.css">
     <script src="https://kit.fontawesome.com/81831682c9.js" crossorigin="anonymous"></script>
 
     <link href="./assets/css/footer.css" rel="stylesheet" />
@@ -42,9 +29,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-
 </head>
 <body id="body" onscroll="handleScroll()" onresize="handleResize()">
+<!-- ___________________________ -->
+
   <!-- -----------------------------------------------first Section (Visible Navbar)---------------------------------------------------------------- -->
   <div class="firstSec">
     <!-- -----------------------------------------------------Navbar Header part---------------------------------------------------------------------- -->
@@ -111,7 +99,7 @@
   </li>
   <li>
     <div class="addOption">
-      <a style="text-decoration: none;color:inherit" href="solution.php">
+    <a style="text-decoration: none;color: inherit" href="solution.php">
       <span class="navBarOpt">Accelerators</span>
 </a>
     </div>
@@ -373,617 +361,299 @@
       </div>
     </div>
   </div>
-  <!-- 
-    - #HEADER
-  -->
 
-  <!-- header -->
+<!-- ___________________________ -->
 
-
-
-
-
-  <main class="mainTechnology">
-    <article>
-
-      <!-- 
-        - #HERO
-      -->
-
-      <section class="tech-hero" id="home">
-        <div class="tech-container">
-
-          <div class="tech-hero-content">
-
-            <!-- <p class="hero-subtitle">We Are Product Designer From UK</p> -->
-
-            <h2 class="tech-h2 tech-hero-title">Best Technologies & Development Agency</h2>
-
-            <p class="tech-hero-text">
-              At Digitus , we pride ourselves on being at the forefront of cutting-edge web development technologies, and ReactJS is no exception. As a leading ReactJS web development service provider, we are dedicated to helping businesses leverage the power of this robust JavaScript library to build stunning, dynamic, and high-performance web applications.
-
-We have a team of skilled ReactJS developers who are known to streamline your web development process by using reusable components.
-            </p>
-
-
-          </div>
-
-          <figure class="tech-hero-banner">
-            <img src="https://dmlab.edu.gr/assets/media/2019/09/Web_Development.png" width="694" height="529" loading="lazy" alt="hero-banner"
-              class="tech-w-101 tech-banner-animation">
-          </figure>
-
+  <div class="solutionss_div">
+    <div class="solutionss_div-main-sol">
+      <div class="solutionss_div-main-sol-3">Turn your problems into  <div class="solutionss_main-div-sol-p-tag">
+        <div class="solutionss_grad">
+    
         </div>
-      </section>
-
-
-
-
-
-      <!-- 
-        - #ABOUT
-      -->
-
-      <section class="tech-section about" id="about">
-        <div class="tech-container">
-
-          <!-- <figure class="tech-about-banner">
-            <img src="https://developer.apple.com/home/images/tile-macos-14/macos-14-c-large_2x.png" width="700" height="532" loading="lazy" alt="about banner"
-              class="tech-w-101 tech-banner-animation">
-            
-          </figure> -->
-          <section class="crousel_sec3">
-      <div class="prev">
-        <a onclick="prevSlide()">&#10094;</a>
+        <div class="solutionss_main-div-part-small-text">
+          profitable business
+        </div>
+      </div></span></div>
+      <div class="solutionss_div-main-sol-4">
+        <div class="solutionss_div-main-sol-5">Get more customers</div>
+        <div class="solutionss_div-main-sol-6">Watch free demo</div>
       </div>
-
-      <div class="slideshow-container">
-        <div class="mySlides fade">
-          <img class="crousel_image" src="assets/images/crousel1.webp" />
+      <div class="solutionss_div-main-sol-7">60 Days free trial . No credit card required</div>
+    </div>
+    <div data-aos="fade-up" class="solutionss_main-div-sol-img-1">
+      <img
+      loading="lazy"
+      src="https://cdn.builder.io/api/v1/image/assets/TEMP/4c3fc5397ba8ab3dbe4979a69ca7003d28b6bcfa59c3e10f152d3b453cb6eed5?apiKey=7103b0229adb49a88a34b61c64810a65&"
+      class="solutionss_img-2"
+    />
+    </div>
+    <div class="solutionss_div-13">
+      <div class="solutionss_div-14">
+        <div data-aos="fade-up" class="solutionss_div-15">Over 1000+ people trust us</div>
+        <div data-aos="fade-up" class="solutionss_div-16">
+          Clarity gives you the blocks & components you need to create a truly
+          professional website, landing page or admin panel for your SaaS.
         </div>
-        <div class="mySlides fade">
-          <img class="crousel_image" src="assets/images/crousel2.webp" />
+        <div class="solutionss_div-17">
+          <div class="solutionss_div-18">
+            <div class="solutionss_swiper-container">
+              <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="./assets/images/solPageRish1.jpg" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./assets/images/solPageRish1.jpg" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./assets/images/solPageRish1.jpg" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./assets/images/solPageRish1.jpg" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./assets/images/solPageRish1.jpg" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./assets/images/solPageRish1.jpg" alt="">
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div>
+            </div>
+            
+          </div>
         </div>
-        <div class="mySlides fade">
-          <img class="crousel_image" src="assets/images/crousel3.webp" />
+        <div class="solutionss_div-34">See all reviews by our customers</div>
+      </div>
+    </div>
+    <div class="solutionss_div-35">
+      <div class="solutionss_div-36">
+        <div data-aos="fade-up" class="solutionss_div-37">Make every step user-centric</div>
+        <div class="solutionss_div-38">
+          Lorem ipsum dolor sit amet, consectetur adipis elit
         </div>
-        <div class="mySlides fade">
-          <img class="crousel_image" src="assets/images/crousel4.webp" />
+        <div data-aos="fade-up" class="solutionss_div-39">
+          <div data-aos="fade-up" class="solutionss_div-40">
+            <div class="solutionss_column-4">
+              <div class="solutionss_div-41">
+                <img
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/4619a74d5f9e03c3a801fd47f89d1c6c9134fc5281249842a2eced489cf8930a?apiKey=7103b0229adb49a88a34b61c64810a65&"
+                  class="solutionss_img-9"
+                />
+                <div class="solutionss_div-42">Support</div>
+                <div class="solutionss_div-43">
+                  Lorem ipsum dolor sit amet, consectetur adipis elit. Sit enim
+                  nec, proin faucibus nibh et sagittis a. Lacinia purus ac amet.
+                </div>
+              </div>
+            </div>
+            <div class="solutionss_column-5">
+              <div class="solutionss_div-44">
+                <img
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/d4d766f208712a2283c7fe14d659dcd0bdbb06770bd832c92010302a4b52b455?apiKey=7103b0229adb49a88a34b61c64810a65&"
+                  class="solutionss_img-10"
+                />
+                <div class="solutionss_div-45">Sales</div>
+                <div class="solutionss_div-46">
+                  Lorem ipsum dolor sit amet, consectetur adipis elit. Sit enim
+                  nec, proin faucibus nibh et sagittis a. Lacinia purus ac amet.
+                </div>
+              </div>
+            </div>
+            <div class="solutionss_column-6">
+              <div class="solutionss_div-47">
+                <img
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/7a71297990b498fb8e690dc2c73d0e8cdd3ceb5c438eaa3cb6605480f7c486ba?apiKey=7103b0229adb49a88a34b61c64810a65&"
+                  class="solutionss_img-11"
+                />
+                <div class="solutionss_div-48">Onboarding</div>
+                <div class="solutionss_div-49">
+                  Lorem ipsum dolor sit amet, consectetur adipis elit. Sit enim
+                  nec, proin faucibus nibh et sagittis a. Lacinia purus ac amet.
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="mySlides fade">
-          <img class="crousel_image" src="assets/images/crousel5.webp" />
-        </div>
-        <div style="text-align: center; margin: -5vh">
-          <span class="dot"></span>
-          <span class="dot"></span>
-          <span class="dot"></span>
-          <span class="dot"></span>
-          <span class="dot"></span>
+        <div class="solutionss_div-50">
+          <div data-aos="fade-up" class="solutionss_div-51">
+            <div class="solutionss_column-7">
+              <div class="solutionss_div-52">
+                <img
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/4edad43a5f662ab29266d024f2a1aeff9bd062c706bddf1fe65826c7d0596386?apiKey=7103b0229adb49a88a34b61c64810a65&"
+                  class="solutionss_img-12"
+                />
+                <div class="solutionss_div-53">Product</div>
+                <div class="solutionss_div-54">
+                  Lorem ipsum dolor sit amet, consectetur adipis elit. Sit enim
+                  nec, proin faucibus nibh et sagittis a. Lacinia purus ac amet.
+                </div>
+              </div>
+            </div>
+            <div class="solutionss_column-8">
+              <div class="solutionss_div-55">
+                <img
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/015072809002ebaee72c6f530bbda36ae11450d4d7d26bdf34ba9fd3a12711fc?apiKey=7103b0229adb49a88a34b61c64810a65&"
+                  class="solutionss_img-13"
+                />
+                <div class="solutionss_div-56">Quality</div>
+                <div class="solutionss_div-57">
+                  Lorem ipsum dolor sit amet, consectetur adipis elit. Sit enim
+                  nec, proin faucibus nibh et sagittis a. Lacinia purus ac amet.
+                </div>
+              </div>
+            </div>
+            <div class="solutionss_column-9">
+              <div class="solutionss_div-58">
+                <img
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/9f232f065b929336aaffbc45a250a6c117712a4d1311dd048f67863e3717b546?apiKey=7103b0229adb49a88a34b61c64810a65&"
+                  class="solutionss_img-14"
+                />
+                <div class="solutionss_div-59">Result</div>
+                <div class="solutionss_div-60">
+                  Lorem ipsum dolor sit amet, consectetur adipis elit. Sit enim
+                  nec, proin faucibus nibh et sagittis a. Lacinia purus ac amet.
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="next">
-        <a onclick="showSlides()">&#10095;</a>
+    </div>
+    <div class="solutionss_div-61">
+      <div class="solutionss_div-62">
+        <div class="solutionss_div-63">
+          <div data-aos="fade-left" class="solutionss_column-10">
+            <div  class="solutionss_div-64">
+              <div class="solutionss_div-65">
+                <div class="solutionss_div-66"></div>
+                <div class="solutionss_div-67">
+                  <div class="solutionss_div-68">Rareblocks</div>
+                  <div class="solutionss_div-69">www.rareblocks.xyz</div>
+                </div>
+              </div>
+              <div class="solutionss_div-70">
+                <div class="solutionss_div-71">Insight</div>
+                <div class="solutionss_div-72">You have made $39,492 this week!</div>
+              </div>
+              <div class="solutionss_div-73">
+                <div class="solutionss_div-74">
+                  <div class="solutionss_div-75">Sale Report</div>
+                  <div class="solutionss_div-76">Mar 21-Apr 20</div>
+                </div>
+                <div class="solutionss_div-77">
+                  <div class="solutionss_div-78"></div>
+                  <div class="solutionss_div-79"></div>
+                  <div class="solutionss_div-80"></div>
+                  <div class="solutionss_div-81"></div>
+                  <div class="solutionss_div-82"></div>
+                  <div class="solutionss_div-83"></div>
+                  <div class="solutionss_div-84"></div>
+                  <div class="solutionss_div-85"></div>
+                  <div class="solutionss_div-86"></div>
+                  <div class="solutionss_div-87"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div data-aos="fade-right" class="solutionss_column-11">
+            <div class="solutionss_div-88">
+              <div class="solutionss_div-89">
+                Managing & selling digital products never been so easy!
+              </div>
+              <div class="solutionss_div-90">
+                Lorem ipsum dolor sit amet, consectetur adipis elit. Sit enim nec,
+                proin faucibus nibh et sagittis a. Lacinia purus ac amet
+                pellentesque aliquam enim.
+              </div>
+              <div class="solutionss_div-91">
+                <div class="solutionss_div-92">Make your first sale</div>
+                <img
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/c9802a783edfe06aa375811212e22e24c90c28f2377b7012425fe7aae7cc80b0?apiKey=7103b0229adb49a88a34b61c64810a65&"
+                  class="solutionss_img-15"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-
-      <script src="./assets/script/crousel.js"></script>
-    </section>
-
-          <div class="tech-about-content">
-
-            <h2 class="tech-h2 tech-section-title underline">Responsive Web Development</h2>
-
-            <p class="tech-about-text">
-              In dictum aliquam turpis lacinia iaculis. Fusce vel malesuada magna. Nulla vel maximus risus. Donec
-              volutpat metus
-              lacinia risus accumsan, ac bibendum libero efficitur. Pellentesque nec nisi sit amet magna tempus
-              hendrerit ut a odio.
-            </p>
-
-            <p class="tech-about-text">
-              Praesent rhoncus commodo tortor, id pulvinar nisl blandit at. Nulla facilisi. Quisque turpis ante,
-              vehicula condimentum
-              arcu.
-            </p>
-
-            <ul class="tech-stats-list">
-
-              <li class="tech-stats-card">
-                <p class="tech-h3 tech-stats-title">9875</p>
-
-                <p class="tech-stats-text">Satisfied Clients</p>
-              </li>
-
-              <li class="tech-stats-card">
-                <p class="tech-h3 tech-stats-title">7894</p>
-
-                <p class="tech-stats-text">Project Lunched</p>
-              </li>
-
-              <li class="tech-stats-card">
-                <p class="tech-h3 tech-stats-title">65</p>
-
-                <p class="tech-stats-text">Years Completed</p>
-              </li>
-
-            </ul>
-
+    </div>
+    <div class="solutionss_div-93">
+      <div class="solutionss_div-94">
+        <div class="solutionss_div-95">
+          <div data-aos="fade-left" class="solutionss_column-12">
+            <div class="solutionss_div-96">
+              <div class="solutionss_div-97">
+                Managing & selling digital products never been so easy!
+              </div>
+              <div class="solutionss_div-98">
+                <div class="solutionss_div-99">
+                  Lorem ipsum dolor sit amet, consectetur adipis elit. Sit enim
+                  nec, proin faucibus nibh et sagittis a. Lacinia purus ac amet
+                  pellentesque aliquam enim.
+                </div>
+                <div class="solutionss_div-100">
+                  <img
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/ac7baf9c77e3863e168f4b5f35f78b30682c413ca8b850309a502e8a86b6fc3c?apiKey=7103b0229adb49a88a34b61c64810a65&"
+                    class="solutionss_img-16"
+                  />
+                  <div class="solutionss_div-101">Make your first sale</div>
+                </div>
+              </div>
+            </div>
           </div>
-
-        </div>
-      </section>
-
-
-      <section class="tech-section tech-about" id="about">
-        <div class="tech-container">
-
-          <figure class="tech-about-banner">
-            <!-- <img src="https://developer.apple.com/home/images/tile-macos-14/macos-14-c-large_2x.png" width="700" height="532" loading="lazy" alt="about banner"
-              class="w-101 banner-animation"> -->
-              <img id="ii" src="https://developer.apple.com/home/images/tile-ios-17/ios-17-large_2x.png?1" width="700" height="532" loading="lazy" alt="about banner"
-              class="tech-w-101 tech-banner-animation"> 
-          </figure>
-
-          <div class="tech-about-content">
-
-            <h2 class="tech-h2 tech-section-title underline">Our Mobile application</h2>
-
-            <p class="tech-about-text">
-              In dictum aliquam turpis lacinia iaculis. Fusce vel malesuada magna. Nulla vel maximus risus. Donec
-              volutpat metus
-              lacinia risus accumsan, ac bibendum libero efficitur. Pellentesque nec nisi sit amet magna tempus
-              hendrerit ut a odio.
-            </p>
-
-            <p class="tech-about-text">
-              Praesent rhoncus commodo tortor, id pulvinar nisl blandit at. Nulla facilisi. Quisque turpis ante,
-              vehicula condimentum
-              arcu.
-            </p>
-
-            <ul class="tech-stats-list">
-
-              <li class="tech-stats-card">
-                <p class="tech-h3 tech-stats-title">9875</p>
-
-                <p class="tech-stats-text">Satisfied Clients</p>
-              </li>
-
-              <li class="tech-stats-card">
-                <p class="tech-h3 tech-stats-title">7894</p>
-
-                <p class="tech-stats-text">Project Lunched</p>
-              </li>
-
-              <li class="tech-stats-card">
-                <p class="tech-h3 tech-stats-title">65</p>
-
-                <p class="tech-stats-text">Years Completed</p>
-              </li>
-
-            </ul>
-
+          <div class="solutionss_column-13">
+            <div data-aos="fade-right" class="solutionss_div-102">
+              <div class="solutionss_div-103">
+                <div class="solutionss_div-104">
+                  <div class="solutionss_div-105">Rareblocks</div>
+                  <div class="solutionss_div-106">www.rareblocks.xyz</div>
+                </div>
+                <div class="solutionss_div-107">R</div>
+              </div>
+              <div class="solutionss_div-108">
+                <div class="solutionss_div-109">Insight</div>
+                <div class="solutionss_div-110">You have made $39,492 this week!</div>
+              </div>
+              <div class="solutionss_div-111">
+                <div class="solutionss_div-112">
+                  <div class="solutionss_div-113">Mar 21-Apr 20</div>
+                  <div class="solutionss_div-114">Sale Report</div>
+                </div>
+                <div class="solutionss_div-115">
+                  <div class="solutionss_div-116"></div>
+                  <div class="solutionss_div-117"></div>
+                  <div class="solutionss_div-118"></div>
+                  <div class="solutionss_div-119"></div>
+                  <div class="solutionss_div-120"></div>
+                  <div class="solutionss_div-121"></div>
+                  <div class="solutionss_div-122"></div>
+                  <div class="solutionss_div-123"></div>
+                  <div class="solutionss_div-124"></div>
+                  <div class="solutionss_div-125"></div>
+                </div>
+              </div>
+            </div>
           </div>
-          
         </div>
-      </section>
-
-
-
-
-
-      <!-- 
-        - #SERVICE
-      -->
-
-      <section class="tech-section tech-service" id="services">
-        <div class="tech-container">
-
-          <h2 class="tech-h2 tech-section-title underline">Our Speciallization</h2>
-
-          <ul class="tech-service-list">
-
-            <li>
-              <div class="tech-service-card">
-
-                <div class="tech-card-icon">
-                  <ion-icon name="telescope-outline"></ion-icon>
-                </div>
-
-                <h3 class="tech-h3 tech-title">Strategy & Research</h3>
-
-                <p class="tech-text">
-                  Mauris ut felis malesuada eros varius tristique a at orci. Nulla vulputate, leo sit amet rhoncus
-                  suscipit, enim ex
-                  venenatis ipsum, et porttitor.
-                </p>
-
-                <!-- <button class="card-btn" aria-label="Show More">
-                  <ion-icon name="chevron-forward-outline"></ion-icon>
-                </button> -->
-
-              </div>
-            </li>
-
-            <li>
-              <div class="tech-service-card">
-
-                <div class="tech-card-icon">
-                  <ion-icon name="desktop-outline"></ion-icon>
-                </div>
-
-                <h3 class="tech-h3 tech-title">APP Development</h3>
-
-                <p class="tech-text">
-                  Mauris ut felis malesuada eros varius tristique a at orci. Nulla vulputate, leo sit amet rhoncus
-                  suscipit, enim ex
-                  venenatis ipsum, et porttitor.
-                </p>
-
-                <!-- <button class="card-btn" aria-label="Show More">
-                  <ion-icon name="chevron-forward-outline"></ion-icon>
-                </button> -->
-
-              </div>
-            </li>
-
-            <li>
-              <div class="tech-service-card">
-
-                <div class="tech-card-icon">
-                  <ion-icon name="globe-outline"></ion-icon>
-                </div>
-
-                <h3 class="tech-h3 tech-title">Web Solution</h3>
-
-                <p class="tech-text">
-                  Mauris ut felis malesuada eros varius tristique a at orci. Nulla vulputate, leo sit amet rhoncus
-                  suscipit, enim ex
-                  venenatis ipsum, et porttitor.
-                </p>
-
-                <!-- <button class="card-btn" aria-label="Show More">
-                  <ion-icon name="chevron-forward-outline"></ion-icon>
-                </button> -->
-
-              </div>
-            </li>
-
-          </ul>
-
-        </div>
-      </section>
-
-
-
-
-
-      <!-- 
-        - #FEATURES
-      -->
-
-      <section class="tech-section tech-features" id="features">
-        <div class="tech-container ">
-
-          <h2 class="tech-h2 tech-section-title underline">Our Features</h2>
-
-          <ul class="tech-features-list">
-
-            <li>
-              <div class="tech-features-card">
-
-                <div class="tech-icon">
-                  <ion-icon name="bulb-outline"></ion-icon>
-                </div>
-
-                <div class="tech-content">
-                  <h3 class="tech-h3 tech-title">Idea & Analysis</h3>
-
-                  <p class="tech-text">
-                    Praesent tincidunt congue est ut hendrerit. Pellentesque et eros sit amet ipsum venenatis.
-                  </p>
-                </div>
-
-              </div>
-              
-            </li>
-
-            <li>
-              <div class="tech-features-card">
-
-                <div class="tech-icon">
-                  <ion-icon name="color-palette-outline"></ion-icon>
-                </div>
-
-                <div class="tech-content">
-                  <h3 class="tech-h3 tech-title">Designing</h3>
-
-                  <p class="tech-text">
-                    Praesent tincidunt congue est ut hendrerit. Pellentesque et eros sit amet ipsum venenatis.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-          </ul>
-
-          <figure class="tech-features-banner">
-            <img src="https://developer.apple.com/visionos/work-with-apple/images/contact-1_2x.png" width="369" height="318" loading="lazy" alt="Features Banner"
-              class="tech-w-100 tech-banner-animation">
-          </figure>
-
-          <ul class="tech-features-list">
-
-            <li>
-              <div class="tech-features-card">
-
-                <div class="tech-icon">
-                  <ion-icon name="code-slash-outline"></ion-icon>
-                </div>
-
-                <div class="tech-content">
-                  <h3 class="tech-h3 tech-title">Development</h3>
-
-                  <p class="tech-text">
-                    Praesent tincidunt congue est ut hendrerit. Pellentesque et eros sit amet ipsum venenatis.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="tech-features-card">
-
-                <div class="tech-icon">
-                  <ion-icon name="rocket-outline"></ion-icon>
-                </div>
-
-                <div class="tech-content">
-                  <h3 class="tech-h3 tech-title">Testing & Lunching</h3>
-
-                  <p class="tech-text">
-                    Praesent tincidunt congue est ut hendrerit. Pellentesque et eros sit amet ipsum venenatis.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-          </ul>
-
-        </div>
-      </section>
-
-      
-      
-      
-      
-      <section class="tech-section tech-blog" id="blog">
-        <div class="tech-container">
-
-          <h2 class="tech-h2 tech-section-title underline">Why Choose Our ReactJS Web Development Service?</h2>
-
-          <ul class="tech-blog-list">
-            
-            
-            
-            <li>
-              <div class="tech-blog-card">
-
-                <figure class="tech-banner">
-                  <a href="#">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2wKJztzWwuajL-78OGkv-O9LqFHBxPCJzVg&usqp=CAU"alt="Vestibulum massa arcu, consectetu pellentesque scelerisque." class="img-cover">
-                  </a>
-                </figure>
-
-                <div class="tech-content">
-
-                  <h3 class="tech-h3 tech-title">
-                    <a href="#">
-                      Vestibulum massa arcu, consectetu pellentesque scelerisque.
-                    </a>
-                  </h3>
-
-                  <p class="tech-text">
-                    Sed quis sagittis velit. Aliquam velit eros, bibendum ut massa et, consequat laoreet erat nam ac
-                    imperdiet.
-                  </p>
-
-                  <div class="tech-meta">
-
-                    <div class="tech-publish-date">
-                      <ion-icon name="time-outline"></ion-icon>
-
-                      <time datetime="2022-03-07">7 March, 2022</time>
-                    </div>
-
-                    <button class="tech-comment" aria-label="Comment">
-                      <ion-icon name="chatbubble-outline"></ion-icon>
-
-                      <data value="15">15</data>
-                    </button>
-
-                    <button class="tech-share" aria-label="Share">
-                      <ion-icon name="share-social-outline"></ion-icon>
-                    </button>
-
-                  </div>
-
-                </div>
-
-              </div>
-            </li>
-
-
-
-            <li>
-              <div class="tech-blog-card">
-
-                <figure class="tech-banner">
-                  <a href="#">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTg1GxYtIgkPmtJoi2P4kuIbG9efaEF2lo5heeDN_xZ8Bb_KHxi8Hlsf7dPXWGafTFujwo&usqp=CAU"alt="Vestibulum massa arcu, consectetu pellentesque scelerisque." class="img-cover">
-                  </a>
-                </figure>
-
-                <div class="tech-content">
-
-                  <h3 class="tech-h3 tech-title">
-                    <a href="#">
-                      Vestibulum massa arcu, consectetu pellentesque scelerisque.
-                    </a>
-                  </h3>
-
-                  <p class="tech-text">
-                    Sed quis sagittis velit. Aliquam velit eros, bibendum ut massa et, consequat laoreet erat nam ac
-                    imperdiet.
-                  </p>
-
-                  <div class="tech-meta">
-
-                    <div class="tech-publish-date">
-                      <ion-icon name="time-outline"></ion-icon>
-
-                      <time datetime="2022-03-07">7 March, 2022</time>
-                    </div>
-
-                    <button class="tech-comment" aria-label="Comment">
-                      <ion-icon name="chatbubble-outline"></ion-icon>
-
-                      <data value="15">15</data>
-                    </button>
-
-                    <button class="tech-share" aria-label="Share">
-                      <ion-icon name="share-social-outline"></ion-icon>
-                    </button>
-
-                  </div>
-
-                </div>
-
-              </div>
-            </li>
-           
-
-           
-
-
-
-            <li>
-              <div class="tech-blog-card">
-
-                <figure class="tech-banner">
-                  <a href="#">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCsVMGAkro4HkfcEPL4yUaOYVLBnXKJezc5g&usqp=CAU"alt="Vestibulum massa arcu, consectetu pellentesque scelerisque." class="img-cover">
-                  </a>
-                </figure>
-
-                <div class="tech-content">
-
-                  <h3 class="tech-h3 tech-title">
-                    <a href="#">
-                      Vestibulum massa arcu, consectetu pellentesque scelerisque.
-                    </a>
-                  </h3>
-
-                  <p class="tech-text">
-                    Sed quis sagittis velit. Aliquam velit eros, bibendum ut massa et, consequat laoreet erat nam ac
-                    imperdiet.
-                  </p>
-
-                  <div class="tech-meta">
-
-                    <div class="tech-publish-date">
-                      <ion-icon name="time-outline"></ion-icon>
-
-                      <time datetime="2022-03-07">7 March, 2022</time>
-                    </div>
-
-                    <button class="tech-comment" aria-label="Comment">
-                      <ion-icon name="chatbubble-outline"></ion-icon>
-
-                      <data value="15">15</data>
-                    </button>
-
-                    <button class="tech-share" aria-label="Share">
-                      <ion-icon name="share-social-outline"></ion-icon>
-                    </button>
-
-                  </div>
-
-                </div>
-
-              </div>
-            </li>
-
-
-
-            <li>
-              <div class="tech-blog-card">
-
-                <figure class="tech-banner">
-                  <a href="#">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKQ6pZQDCdI-yF3yB1Zlxty2nvNXrY2DfDnQ&usqp=CAU"alt="Vestibulum massa arcu, consectetu pellentesque scelerisque." class="img-cover">
-                  </a>
-                </figure>
-
-                <div class="tech-content">
-
-                  <h3 class="tech-h3 tech-title">
-                    <a href="#">
-                      Vestibulum massa arcu, consectetu pellentesque scelerisque.
-                    </a>
-                  </h3>
-
-                  <p class="tech-text">
-                    Sed quis sagittis velit. Aliquam velit eros, bibendum ut massa et, consequat laoreet erat nam ac
-                    imperdiet.
-                  </p>
-
-                  <div class="tech-meta">
-
-                    <div class="tech-publish-date">
-                      <ion-icon name="time-outline"></ion-icon>
-
-                      <time datetime="2022-03-07">7 March, 2022</time>
-                    </div>
-
-                    <button class="tech-comment" aria-label="Comment">
-                      <ion-icon name="chatbubble-outline"></ion-icon>
-
-                      <data value="15">15</data>
-                    </button>
-
-                    <button class="tech-share" aria-label="Share">
-                      <ion-icon name="share-social-outline"></ion-icon>
-                    </button>
-
-                  </div>
-
-                </div>
-
-              </div>
-            </li>
-
-
-
-
-            
-
-          </ul>
-
-        </div>
-      </section>
-
-    </article>
-  </main>
-
-
-
-
-
-       <!-- -----------------------------------------------------------------------------home Contact form part--------------------------------------------------------- -->
-       <section class="home_contacter">
+      </div>
+    </div>
+  </div>
+
+  
+     <!-- -----------------------------------------------------------------------------home Contact form part--------------------------------------------------------- -->
+     <section class="home_contacter">
       <div class="home_texter">
         <div>
           <span data-aos="fade-down" data-aos-duration="900" class="inline-block text-xs text-gray-50 uppercase aos-init aos-animate">
@@ -1154,22 +824,19 @@ We have a team of skilled ReactJS developers who are known to streamline your we
       </div>
     </footer>
 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <!-- this script use for animation part -->
-
-    <script>
-      AOS.init();
-    </script>
-
+    
     <script src="./assets/script/handlescroll.js"></script>
     <!-- for Navba/assetsr Part -->
     <script src="./assets/script/cptcha.js"></script>
     <!-- for captcha Part -->
     <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="./assets/script/solution.js"></script>
 </body>
 
 </html>

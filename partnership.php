@@ -94,7 +94,9 @@
   </li>
   <li>
     <div class="addOption">
+      <a style="text-decoration: none;color:inherit" href="solution.php">
       <span class="navBarOpt">Accelerators</span>
+</a>
     </div>
   </li>
   <li>
